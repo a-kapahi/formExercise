@@ -11,39 +11,39 @@
         <form>
             <fieldset style="width: 280px; border: none">
                 <legend><b>Contact form</b></legend>
-                <label>Your name<sup>*</sup>:</label><input type="text" name="Name" required style="float: right"><br><br>
-                <label>E-mail<sup>*</sup>:</label><input type="email" name="Email" required style="float: right"><br><br>
-                <label>Phone number:</label><input type="tel" name="Phone" style="float: right"><br><br>
-                <label>Website<sup>*</sup>:</label><input type="url" name="Website" value="http://" required style="float: right"><br><br>
-                <label>Comments<sup>*</sup>:<br></label><textarea name="Comments" rows="10" cols="30"></textarea> 
+                <label>Your name<sup>*</sup>:<input type="text" name="Name" required style="float: right"></label><br><br>
+                <label>E-mail<sup>*</sup>:<input type="email" name="Email" required style="float: right"></label><br><br>
+                <label>Phone number:<input type="tel" name="Phone" style="float: right"></label><br><br>
+                <label>Website<sup>*</sup>:<input type="url" name="Website" value="http://" required style="float: right"></label><br><br>
+                <label>Comments<sup>*</sup>:<br><textarea name="Comments" rows="10" cols="30"></textarea></label> 
             </fieldset><br>
             <fieldset style="border: none">
                 <legend><b>Text field</b></legend>
-                <label>Your name:</label><input type="text" name="Name"><br>
+                <label>Your name:<input type="text" name="Name"></label><br>
             </fieldset><br>
             <fieldset style="border: none">
                 <legend><b>Password field</b></legend>
-                <label>Password:</label><input type="password" name="Password"><br>
+                <label>Password:<input type="password" name="Password"></label><br>
             </fieldset><br>
             <fieldset style="border: none">
                 <legend><b>Radio buttons</b></legend>
-                <label>Do you like pizza?</label><br>
+                <label>Do you like pizza?<br>
                 <input type="radio" name="pizza" value="Yes" checked>Yes<br>
                 <input type="radio" name="pizza" value="No">No<br>
                 <input type="radio" name="pizza" value="Maybe">Maybe<br>
-                <input type="radio" name="pizza" value="never tried">Never tried<br>
-            </fieldset><br>
+                <input type="radio" name="pizza" value="never tried">Never tried</label>
+            </fieldset><br><br>
             <fieldset style="border: none">
                 <legend><b>Check Box</b></legend>
-                <input type="checkbox" name="like">Check this box if you like our servicess<br>
+                <label><input type="checkbox" name="like">Check this box if you like our services</label><br>
                         </fieldset><br>  
             <fieldset style="border: none">
                 <legend><b>Text area</b></legend>
-                <label>Anything you would like to say?<br></label><textarea name="Comments" rows="10" cols="30"></textarea>
+                <label>Anything you would like to say?<br><textarea name="Comments" rows="10" cols="30"></textarea></label>
             </fieldset><br>
             <fieldset style="border: none">
                 <legend><b>I Like</b></legend>
-                 <select name="Toppings" size="5">
+                 <select name="Toppings" size="5" multiple>
                     <option value="mushrooms">mushrooms</option>
                     <option value="green peppers">green peppers</option>
                     <option value="onions">onions</option>
@@ -53,14 +53,14 @@
             </fieldset><br>
             <fieldset style="border: none">
                 <legend><b>Menu</b></legend>
-                <label>Your favourite color:</label><br>
+                <label>Your favourite color:<br>
                  <select name="Colors">
                     <option value="red">red</option>
                     <option value="blue">blue</option>
                     <option value="green">green</option>
                     <option value="yellow">yellow</option>
                     <option value="black">black</option>
-                </select> 
+                </select></label>
             </fieldset><br>
             <fieldset style="border: none">
                 <legend><b>Attach file</b></legend>
